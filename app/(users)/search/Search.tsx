@@ -20,10 +20,11 @@ function Search() {
         value={search}
         placeholder="Enter the Search term"
         onChange={(e) => setSearch(e.target.value)}
+        className=" outline outline-1 py-1 px-4"
       />
       <button
         type="submit"
-        className=" bg-blue-500 text-white font-bold py-2 px-4 rounded-lg"
+        className="ml-2 bg-blue-500 text-white font-bold py-2 px-4 rounded-lg"
       >
         Search
       </button>
